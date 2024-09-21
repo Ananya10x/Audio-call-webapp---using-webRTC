@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Audio Call Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Basic Audio Call</h1>
+        <div id="callControls">
+            <input type="text" id="remoteId" placeholder="Enter remote user ID">
+            <button id="callBtn">Start Call</button>
+            <button id="hangupBtn" disabled>Hang Up</button>
+        </div>
+        <div id="status"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/1.4.7/peerjs.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
